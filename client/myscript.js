@@ -66,7 +66,7 @@ const handleSubmit =async (e)=>{
  loader(messageDiv);
 
  //and here we are going to fetch data from the server
- const response =await fetch('http://localhost:4000',{
+ const response =await fetch('https://nervebot.onrender.com',{
   method:'POST',
   headers:{
     'Content-Type':'application/json'
